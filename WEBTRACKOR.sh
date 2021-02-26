@@ -4,16 +4,26 @@
 banner() {
 
 clear
-printf "      \e[33;1m ______      _     _     _               \e[0m\n"
-printf "      \e[33;1m|___  /     | |   (_)   | |              \e[0m\n"
-printf "      \e[33;1m   / / _ __ | |__  _ ___| |__   ___ _ __ \e[0m\n"
-printf "      \e[32;1m  / /\e[33;1m | '_ \| '_ \| / __| '_ \ / _ \ '__|\e[0m\n"
-printf "      \e[32;1m / /__| |_) | | | | \__ \ | | |  __/ |   \e[0m\n"
-printf "      \e[32;1m/_____| .__/|_| |_|_|___/_| |_|\___|_|   \e[0m\n"
-printf "      \e[33;1m      | |                                \e[0m\n"
-printf "      \e[33;1m      |_|           \e[1;97m    Version 2.1 Beta      \e[0m\n"
+clear
+printf "      \e[33;1m                            \e[0m\n"
+printf "      \e[33;1m                            \e[0m\n"
+printf "      \e[33;1m 
+ ____    _    _     ___   ____   ___   ____ ___    _    _ 
+| __ )  / \  | |   |_ _| / ___| / _ \ / ___|_ _|  / \  | |
+|  _ \ / _ \ | |    | |  \___ \| | | | |    | |  / _ \ | |
+| |_) / ___ \| |___ | |   ___) | |_| | |___ | | / ___ \| |
+|____/_/   \_\_____|___| |____/ \___/ \____|___/_/   \_\_|
+                                                                                \e[0m\n"
+printf "      \e[32;1m      VERSION (0.1)        \e[33;1m  \e[0m\n"
+printf "      \e[32;1m                            \e[0m\n"
+printf "      \e[32;1m                            \e[0m\n"
+printf "      \e[33;1m                             \e[0m\n"
+printf "      \e[33;1m            \e[1;97m    Version 2.1 Beta      \e[0m\n"
 printf "\n"
-printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by htr-tech (tahmid.rayat)\e[0m\n"
+printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by  (BILAL CYBER EXPERT)"
+printf "\n"
+
+printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by  (BILAL CYBER EXPERT)"
 printf "\n"
 
 }
@@ -28,7 +38,7 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: 
 if [[ $menu_option == *.ngrok.io || $menu_option == *.ngrok.* || $menu_option == *.bit*.* || $menu_option == http://*@  || $menu_option == *.serv*.net || $menu_option == *127.0.0.1:* || $menu_option == *127.0.0.1 || $menu_option == *.ngrok. || $menu_option == *.ngrok.k || $menu_option == *.ngrok.k || $menu_option == *.ngrok.k ]]; then
 facebook
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/balibahi or more\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/anynomouscheetah or more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
