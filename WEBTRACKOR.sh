@@ -64,7 +64,7 @@ if [[ $fb_option == OK || $fb_option == ok ]]; then
 ok
 else
 printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
-sleep 1
+sleep 2
 banner
 menu
 fi
